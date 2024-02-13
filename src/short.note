@@ -1,0 +1,18 @@
+//all steps of redux toolkit
+
+
+//step -1
+//create store folder
+
+//2-
+//create slice according to your code logic
+
+
+//3-
+//create store.jsx
+
+//4-
+//provide access of store to whole app, in main.jsx
+
+//5-
+//use store in your componentes

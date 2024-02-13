@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(40deg, #075f3d, #035b92fa);
+  color: aliceblue;
+  min-height: 100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  overscroll-behavior: none;
+  
+  
+}
+.all{
+  background-color: rgba(11, 9, 56, 0.401);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 10px black;
+  margin: 20px 0;
+
+}
+h1{
+  background-color: rgb(12, 76, 92);
+  padding:20px;
+  border-radius: 10px;
+  
+}
+p{
+  background-color: rgb(12, 76, 92);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: larger;
+}
+
+button{
+  background-color: rgba(0, 0, 0, 0.471);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: larger;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  margin: 20px;
+}
+i{
+  background-color: rgba(0, 0, 0, 0.471);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: larger;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  margin: 20px;
+}
+.dlt-btn{
+  font-size: 15px;
+  margin: 5px;
+}
+button:active{
+  scale: .9;
+}
+
+
+.all-user{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.user-list{
+  background-color: rgba(34, 38, 40, 0.657);
+  color: rgb(255, 255, 255);
+  min-width: fit-content;
+  display:flex;
+  padding: 15px;
+  flex-direction: column;
+  font-family: sans-serif;
+  margin: 5px;
+  border-radius: 10px;
+
+}
+
+li{
+  list-style: none;
+  margin:5px;
+  padding: 12px;
+  border-radius: 5px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-direction: row;
+  background-color: rgba(13, 15, 20, 0.692);
+}
+
+@media (max-width:700px) {
+  .all{
+    max-width: 280px;
+  }
+  html{
+    font-size: 10px;
+  }
+  
+}
