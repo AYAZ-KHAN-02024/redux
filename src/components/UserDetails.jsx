@@ -2,8 +2,8 @@ import React from 'react'
 import DeleteUsers from './DeleteUsers'
 import { api } from '../api/Api'
 import { useDispatch } from 'react-redux'
-import { addUsers } from '../store/UserSlice'
 import DisplayList from './DisplayList'
+import { addUsers } from '../store/UserSlice'
 
 function UserDetails() {
   const dispatch = useDispatch();
@@ -22,7 +22,7 @@ function UserDetails() {
   return (
     <>
     <div className='all-user'>
-      <h1>list of all user</h1><button onClick={()=> ChangeState()}>add user</button>
+      <h1>list of all user</h1><button onClick={ChangeState}>add user</button>
     </div>
     
     <div className="user-list">
